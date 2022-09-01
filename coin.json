@@ -101,7 +101,7 @@
   {
     "chain":97,
     "symbol":"BUSD",
-    "address":"0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee",
+    "address":"0x056aa40b649d2550e30e35ffca209053fa924577",
     "name":"Binance USD",
     "decimals":18,
     "abi":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/busd.abi",
