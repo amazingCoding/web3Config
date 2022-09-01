@@ -42,7 +42,7 @@
     "name":"Tether USD",
     "decimals":6,
     "isMain":false,
-    "icon":"usdt.png"
+    "icon":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdc.png"
   },
   {
     "chain":5,
