@@ -6,7 +6,7 @@
     "decimals":18,
     "name":"Ethereum",
     "isMain":true,
-    "image":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/eth.png"
+    "icon":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/eth.png"
   },
   {
     "chain":5,
@@ -15,7 +15,7 @@
     "decimals":18,
     "name":"Ethereum",
     "isMain":true,
-    "image":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/eth.png"
+    "icon":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/eth.png"
   },
   {
     "chain":1,
@@ -60,7 +60,7 @@
     "decimals":18,
     "name":"Binance Coin",
     "isMain":true,
-    "image":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
+    "icon":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
   },
   {
     "chain":56,
@@ -86,7 +86,7 @@
     "decimals":18,
     "name":"Binance Coin",
     "isMain":true,
-    "image":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
+    "icon":"https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
   },
   {
     "chain":97,
