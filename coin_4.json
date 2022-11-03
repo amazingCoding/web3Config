@@ -152,7 +152,7 @@
     "chain": 80001,
     "symbol": "MATIC",
     "address": "0x1",
-    "decimals": 6,
+    "decimals": 18,
     "name": "Polygon",
     "isMain": true,
     "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/polygon.png",
@@ -164,7 +164,7 @@
     "address": "0x0de51eb069fd04f5ff6fb48f1dad6766ac558b33",
     "decimals": 6,
     "name": "USDT",
-    "isMain": true,
+    "isMain": false,
     "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdt.png",
     "abi": ""
   },
@@ -174,7 +174,7 @@
     "address": "0x8ff0cefbc3305a94697b2fc2935cc71fca9bc83f",
     "decimals": 6,
     "name": "USDC",
-    "isMain": true,
+    "isMain": false,
     "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdc.png",
     "abi": ""
   }
