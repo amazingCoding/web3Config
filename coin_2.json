@@ -156,7 +156,7 @@
     "name": "Polygon",
     "isMain": true,
     "icon": "",
-    "abi": ""
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/polygon.png"
   },
   {
     "chain": 80001,
@@ -165,7 +165,7 @@
     "decimals": 6,
     "name": "USDT",
     "isMain": true,
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdt.png",
     "abi": ""
   },
   {
@@ -175,7 +175,7 @@
     "decimals": 6,
     "name": "USDC",
     "isMain": true,
-    "icon": "",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdc.png",
     "abi": ""
   }
 ]
