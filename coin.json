@@ -167,7 +167,7 @@
     "isMain": true,
     "icon": "",
     "abi": ""
-  }
+  },
   {
     "chain": 80001,
     "symbol": "USDC",
@@ -177,5 +177,5 @@
     "isMain": true,
     "icon": "",
     "abi": ""
-  },
+  }
 ]
