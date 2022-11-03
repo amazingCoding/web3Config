@@ -1,0 +1,181 @@
+[
+  {
+    "chain": -1,
+    "symbol": "TRX",
+    "address": "0x1",
+    "decimals": 6,
+    "name": "Tron",
+    "isMain": true,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/tron.png",
+    "abi": ""
+  },
+  {
+    "chain": -2,
+    "symbol": "TRX",
+    "address": "0x1",
+    "decimals": 6,
+    "name": "TRX",
+    "isMain": true,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/tron.png",
+    "abi": ""
+  },
+  {
+    "chain": -1,
+    "symbol": "USDT",
+    "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "decimals": 6,
+    "name": "USDT",
+    "isMain": false,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/tron_usdt.png",
+    "abi": ""
+  },
+  {
+    "chain": -2,
+    "symbol": "USDT",
+    "address": "TDtY2fXmUEZsdqraqvBpaiJpCyj6CaKX1G",
+    "decimals": 6,
+    "name": "USDT",
+    "isMain": false,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/tron_usdt.png",
+    "abi": ""
+  },
+  {
+    "chain": 1,
+    "symbol": "ETH",
+    "address": "0x1",
+    "decimals": 18,
+    "name": "Ethereum",
+    "isMain": true,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/eth.png",
+    "abi": ""
+  },
+  {
+    "chain": 5,
+    "symbol": "ETH",
+    "address": "0x5",
+    "decimals": 18,
+    "name": "Ethereum",
+    "isMain": true,
+    "abi": "",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/eth.png"
+  },
+  {
+    "chain": 1,
+    "symbol": "USDT",
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "decimals": 6,
+    "isMain": false,
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/usdt.abi",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdt.png"
+  },
+  {
+    "chain": 1,
+    "symbol": "USDC",
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "name": "USD Coin",
+    "decimals": 6,
+    "isMain": false,
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/usdc.abi",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdc.png"
+  },
+  {
+    "chain": 5,
+    "symbol": "USDT",
+    "address": "0xe2D7250B2EC3CD208AC5B42886Edd162411529C4",
+    "name": "Tether USD",
+    "decimals": 6,
+    "isMain": false,
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/usdt.abi",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdt.png"
+  },
+  {
+    "chain": 5,
+    "symbol": "USDC",
+    "address": "0x6576829178E509270003BfAfCE17cF82c48405fa",
+    "name": "USD Coin",
+    "decimals": 6,
+    "isMain": false,
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/usdc.abi",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/usdc.png"
+  },
+  {
+    "chain": 56,
+    "symbol": "BNB",
+    "address": "0x56",
+    "decimals": 18,
+    "name": "Binance Coin",
+    "isMain": true,
+    "abi": "",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
+  },
+  {
+    "chain": 56,
+    "symbol": "BUSD",
+    "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "name": "Binance USD",
+    "decimals": 18,
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/busd.abi",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
+  },
+  {
+    "chain": 56,
+    "symbol": "KAMPAY",
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/kampay.abi",
+    "address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    "name": "KamPay",
+    "decimals": 18,
+    "isMain": false,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/kampay.png"
+  },
+  {
+    "chain": 97,
+    "symbol": "BNB",
+    "address": "0x97",
+    "decimals": 18,
+    "name": "Binance Coin",
+    "isMain": true,
+    "abi": "",
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
+  },
+  {
+    "chain": 97,
+    "symbol": "BUSD",
+    "address": "0x056aa40b649d2550e30e35ffca209053fa924577",
+    "name": "Binance USD",
+    "decimals": 18,
+    "abi": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/abi/busd.abi",
+    "isMain": false,
+    "icon": "https://raw.githubusercontent.com/amazingCoding/web3Config/master/icon/bnb.png"
+  },
+  {
+    "chain": 80001,
+    "symbol": "MATIC",
+    "address": "0x1",
+    "decimals": 6,
+    "name": "Polygon",
+    "isMain": true,
+    "icon": "",
+    "abi": ""
+  },
+  {
+    "chain": 80001,
+    "symbol": "USDT",
+    "address": "0x0de51eb069fd04f5ff6fb48f1dad6766ac558b33",
+    "decimals": 6,
+    "name": "USDT",
+    "isMain": true,
+    "icon": "",
+    "abi": ""
+  },
+  {
+    "chain": 80001,
+    "symbol": "USDC",
+    "address": "0x8ff0cefbc3305a94697b2fc2935cc71fca9bc83f",
+    "decimals": 6,
+    "name": "USDC",
+    "isMain": true,
+    "icon": "",
+    "abi": ""
+  }
+]
