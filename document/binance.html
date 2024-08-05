@@ -6,32 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>Document</title>
+    <title>Payment by Exchange or Other Wallets Tutorial</title>
 </head>
 
 <body>
     <main class="main">
-        <h2>Binance Payment Documentation</h2>
-        <p class="article-content">1. Select the corresponding currency to be paid,
-            Enter the payment address.</p>
-        <div class="images">
-            <img class="article-image" src="./assets/binance/address.png">
+        <h1 style="padding-top: 20px;">Payment by Exchange or Other Wallets Tutorial</h1>
+        <div class="flex">
+            <h3 class="navItem navItemActive" id="nav1">Exchange Payment Tutorial</h3>
+            <h3 class="navItem" id="nav2">Other Wallet Payment Tutorial</h3>
         </div>
-        <p class="article-content">2. Then select the corresponding chain for the payment.</p>
-        <div class="images">
-            <img class="article-image" src="./assets/binance/eth.png">
-            <img class="article-image" src="./assets/binance/polygon.png">
-        </div>
-        <div class="images">
-            <img class="article-image" src="./assets/binance/bnb.png">
-            <img class="article-image" src="./assets/binance/tron.png">
+        <div id="content1">
+            <p class="article-content">1. Go to Exchange or Exchange wallet and click ‘Withdraw’ (We use Binance Wallet
+                as
+                example here)</p>
+            <p class="article-content">2. Select the corresponding crypto to make payment.</p>
+            <p class="article-content">3. Scan the payment QR code or enter the payment address.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/binance/address.png">
+            </div>
+            <p class="article-content">4. Make sure you select the right chain for the payment.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/binance/eth.png">
+                <img class="article-image" src="./assets/binance/polygon.png">
+            </div>
+            <div class="images">
+                <img class="article-image" src="./assets/binance/bnb.png">
+                <img class="article-image" src="./assets/binance/tron.png">
+            </div>
+            <p class="article-content">5. Enter the payment amount and confirm withdrawal.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/binance/amount.png">
+            </div>
         </div>
 
-        <p class="article-content">3. Finally, please enter the payment amount accurately.</p>
-        <div class="images">
-            <img class="article-image" src="./assets/binance/amount.png">
+        <div id="content2" style="display: none;">
+            <p class="article-content">1. Ensure the wallet has sufficient crypto and sufficient gas to make the
+                payment.
+            </p>
+            <p class="article-content">2. Double check to make sure you select the right chain for the payment.</p>
+            <p class="article-content">3. Make payment by scanning the payment QR code or enter the payment address
+                manually.</p>
         </div>
     </main>
 </body>
+    <script>
+        const navItem1 = document.getElementById('nav1');
+        const navItem2 = document.getElementById('nav2');
+        const content1 = document.getElementById('content1');
+        const content2 = document.getElementById('content2');
 
+        navItem1.addEventListener('click', () => {
+            navItem1.classList.add('navItemActive');
+            navItem2.classList.remove('navItemActive');
+            content1.style.display = 'block';
+            content2.style.display = 'none';
+        });
+        navItem2.addEventListener('click', () => {
+            navItem2.classList.add('navItemActive');
+            navItem1.classList.remove('navItemActive');
+            content2.style.display = 'block';
+            content1.style.display = 'none';
+        });
+    </script>
 </html>

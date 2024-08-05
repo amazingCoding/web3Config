@@ -107,3 +107,26 @@ h2 {
         margin-bottom: 20px;
     }
 }
+.flex{
+    display: flex;
+}
+.navItem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* flex: 1; */
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 20px;
+    padding: 10px;
+}
+.navItem:hover{
+    background-color: #45a049;
+    color: white;
+}
+.navItemActive{
+    background-color: #45a049;
+    color: white;
+}
