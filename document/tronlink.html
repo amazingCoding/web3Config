@@ -12,11 +12,68 @@
 <body>
     <main class="main">
         <h2>TronLink Payment Documentation</h2>
-        <p class="article-content">To make a payment using TronLink, scan the QR code to enter the payment page and proceed with the payment. For instructions on how to create a wallet and other related information, please refer to the official documentation for TronLink.</p>
-        <div class="images">
-            <img class="article-image" src="./assets/tronlink/create.png">
+        <div class="flex">
+            <h3 class="navItem navItemActive" id="nav1">Phone</h3>
+            <h3 class="navItem" id="nav2">Desktop</h3>
+        </div>
+        <div id="content1">
+            <p class="article-content">To make a payment using TronLink, scan the QR code to enter the payment page and
+                proceed with
+                the payment. For instructions on how to create a wallet and other related information, please refer to
+                the official
+                documentation for TronLink.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/tronlink/create.png">
+            </div>
+        </div>
+        <div id="content2" style="display: none;">
+            <!-- 1. 选中 TronLink 钱包的支付方式
+            <!-- 2. 点击 connect tronLink -->
+            <!-- 3. 在弹出的页面中选择你的一个钱包，然后点击 connect （确认之后下次会自动连接） -->
+            <!-- 4. 点击 pay -->
+            <!-- 5. 在弹出的页面中确认支付 -->
+            <p class="article-content">1. Choose TronLink as the payment method.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/tronlink/1.1.png">
+            </div>
+            <p class="article-content">2. Click 'Connect TronLink'.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/tronlink/2.2.jpg">
+            </div>
+            <p class="article-content">3. In the pop-up page, select one of your wallets and click 'Connect' (it will
+                automatically connect next time).</p>
+                <div class="images">
+                    <img class="article-image" src="./assets/tronlink/3.3.png">
+                </div>
+            <p class="article-content">4. Click 'Pay'.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/tronlink/4.4.jpg">
+            </div>
+            <p class="article-content">5. Confirm the payment in the pop-up page.</p>
+            <div class="images">
+                <img class="article-image" src="./assets/tronlink/5.5.png">
+            </div>
         </div>
     </main>
 </body>
+<script>
+    const navItem1 = document.getElementById('nav1');
+    const navItem2 = document.getElementById('nav2');
+    const content1 = document.getElementById('content1');
+    const content2 = document.getElementById('content2');
+
+    navItem1.addEventListener('click', () => {
+        navItem1.classList.add('navItemActive');
+        navItem2.classList.remove('navItemActive');
+        content1.style.display = 'block';
+        content2.style.display = 'none';
+    });
+    navItem2.addEventListener('click', () => {
+        navItem2.classList.add('navItemActive');
+        navItem1.classList.remove('navItemActive');
+        content2.style.display = 'block';
+        content1.style.display = 'none';
+    });
+</script>
 
 </html>
